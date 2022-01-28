@@ -66,3 +66,23 @@ a {
 .luxuryButton {
     color: hsl(179, 100%, 13%);
 }
+a:hover {
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    line-height: 32px;
+}
+
+@media (min-width: 735px) {
+    main {
+        margin: 160px 0;
+        width: 732px;
+        flex-direction: row;
+    }
+    section {
+        height: 400px;
+    }
+    a {
+        margin-top: 68px;
+    }
+}
